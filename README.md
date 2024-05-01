@@ -47,7 +47,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --card-width: 320px;
-  --card-height: 473px;
+  --card-height: 497px;
 }
 ```
 
