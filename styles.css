@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --mobile: 375px;
+  --desktop: 1440px;
+  --white-color: hsl(0, 0%, 100%);
+  --light-gray-color: hsl(212, 45%, 89%);
+  --grayish-blue-color: hsl(220, 15%, 55%);
+  --shadow-color: hsla(220, 15%, 55%, 0.2);
+  --dark-blue-color: hsl(218, 44%, 22%);
+  --primary-font: "Outfit", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --card-width: 320px;
+  --card-height: 473px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  background-color: var(--light-gray-color);
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  width: 100%;
+  height: 100vh;
+  padding-top: 152px;
+}
+@media (max-width: 375px) {
+  body {
+    padding-top: 85px;
+  }
+}
+h1 {
+  font-size: 22px;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: var(--dark-blue-color);
+}
+p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+  padding: 0 1.15rem;
+  color: var(--grayish-blue-color);
+}
+main {
+  width: var(--card-width);
+  height: var(--card-height);
+  margin: 0 auto;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 10px 20px 0px var(--shadow-color);
+}
+
+main img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.attribution {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
