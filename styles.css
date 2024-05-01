@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 :root {
-  --mobile: 375px;
-  --desktop: 1440px;
   --white-color: hsl(0, 0%, 100%);
   --light-gray-color: hsl(212, 45%, 89%);
   --grayish-blue-color: hsl(220, 15%, 55%);
