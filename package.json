@@ -1,0 +1,17 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "Challenge to build out this QR code component and get it looking as close to design as possible.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "QR",
+    "code",
+    "component"
+  ],
+  "author": "Srijan Manandhar",
+  "license": "ISC"
+}
